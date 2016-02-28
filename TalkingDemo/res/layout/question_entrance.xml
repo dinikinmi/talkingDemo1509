@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" 
+    android:background="@drawable/shape_login_bg">
+ 
+    
+           <Button
+           android:id="@+id/myAnswersInQE"
+           android:layout_centerHorizontal="true"        
+           android:layout_alignParentTop="true"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:layout_marginTop="25dp"
+           android:text="MyAnswer"
+           android:background="@drawable/shape_login_div"
+           android:textSize="25dp"
+           />
+           
+           <Button
+           android:id="@+id/favouriteInQE" 
+           android:layout_marginTop="25dp"
+           android:layout_below="@id/myAnswersInQE"
+           android:layout_centerHorizontal="true"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:text="Favourite"
+           android:background="@drawable/shape_login_div"
+           android:textSize="25dp"
+           />
+           
+           <Button
+           android:id="@+id/myQuestionsInQE"
+           android:layout_marginTop="25dp"
+           android:layout_below="@id/favouriteInQE"
+           android:layout_centerHorizontal="true"
+           android:layout_width="fill_parent"
+           android:layout_height="wrap_content"
+           android:text="MyQuestions"
+           android:background="@drawable/shape_login_div"
+            android:textSize="25dp"
+           />
+           
+                            
+           <Button
+           android:id="@+id/newQuestionsInQE"
+           android:layout_marginTop="25dp"
+            android:layout_centerHorizontal="true"
+          android:layout_below="@id/myQuestionsInQE"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:text="New Question"
+           android:background="@drawable/shape_login_div"
+             android:textSize="25dp"
+            />
+           
+                          
+           <Button     
+           android:id="@+id/postNewQuestionInQE"
+           android:layout_marginTop="25dp"
+           android:layout_below="@id/newQuestionsInQE"
+           android:layout_centerHorizontal="true"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:text="Post A New Question"
+           android:background="@drawable/shape_login_div"
+            android:textSize="25dp"
+           />
+</RelativeLayout>           
+ 

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/shape_login_bg"
+     >
+    
+    <EditText
+        android:id="@+id/et_questionTitle_PNQ"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:maxLength="25"
+        android:maxLines="2"
+        android:hint="Input Question Tile Here"
+       />
+    
+    <Button 
+        android:id="@+id/bt_submitQuestion_PNQ"
+        android:layout_below="@id/et_questionTitle_PNQ"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true" 
+        android:background="@drawable/shape_login_div"
+        android:textSize="25dp"
+        android:text="  SUBMIT  "/>
+    
+    
+    <EditText
+        android:id="@+id/et_questionContent_PNQ"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/bt_submitQuestion_PNQ"
+        android:gravity="top"
+         android:hint="Input Question Content Here" 
+        
+        />
+        
+           
+    
+    
+
+</RelativeLayout>

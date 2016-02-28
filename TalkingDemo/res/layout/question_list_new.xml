@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" 
+    android:background="@drawable/shape_login_bg"
+    >
+        
+        <Button
+            android:id="@+id/backInQN"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Back"
+            android:background="@drawable/shape_login_div"
+               android:textSize="20dp"
+        android:textColor="#FFFF4500"
+            />
+
+       
+
+        <TextView
+            android:id="@+id/Title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="  New Question  "
+            android:background="@drawable/shape_login_div"
+            android:textSize="20dp"
+             android:textColor="#FFFF4500"
+            />
+        
+        
+       
+    
+      <ListView
+            android:id="@+id/newQuestionList"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1" />
+  
+       
+   
+</LinearLayout>

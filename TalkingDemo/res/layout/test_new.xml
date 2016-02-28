@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    
+    <TextView 
+        android:id="@+id/questionId"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="questionId"
+     />
+    
+    
+    <ImageView
+        android:id="@+id/playTestAudio"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/play_test_audio"/>
+    
+    <TextView
+        android:id="@+id/myAnswer"
+        android:layout_width="wrap_content"    
+        android:layout_height="wrap_content"
+        android:text=""/>
+    
+    <TextView 
+        android:id="@+id/tvRightAnswer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""
+        />
+    
+    <RelativeLayout 
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content">
+      
+        <EditText 
+        android:id="@+id/edMyAnswer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:text=""
+        />
+        
+        <Button 
+            android:id="@+id/Submit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@id/edMyAnswer"
+            android:text="Submit"
+            />
+                
+    </RelativeLayout>
+    
+    <Button 
+        android:id="@+id/nextQuestion"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="NextQuestion"
+        />
+    
+    
+    <Button 
+        android:id="@+id/getAnswer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="GetAnswer"
+        />
+</LinearLayout>

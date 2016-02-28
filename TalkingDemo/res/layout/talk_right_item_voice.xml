@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <TextView
+        android:id="@+id/talkright_time"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="right" />
+
+    <ImageView
+        android:id="@+id/talkright_iv"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/talkright_time"
+        android:layout_marginRight="15dp"
+        android:layout_marginTop="16dp"
+        android:contentDescription="@string/app_name"
+        android:gravity="right"
+        android:padding="10dp"
+        android:src="@drawable/robot" />
+
+    <TextView
+        android:id="@+id/talklrihgt_tv_voice"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/talkright_iv"
+        android:layout_toLeftOf="@+id/talkright_iv"
+        android:gravity="center"
+        android:padding="10dp"
+        android:text="Voice Message" />
+
+</RelativeLayout>

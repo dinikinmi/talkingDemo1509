@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFFFF">
+  
+    <!-- 顶部标题 -->
+     <RelativeLayout 
+  	    android:id="@+id/mainwin_title"
+  	    android:layout_width="fill_parent"
+  		android:layout_height="wrap_content"
+    	android:background="#FF0045F8" >
+ 
+         <Button
+       	 android:id="@+id/mainwin_title_btn"
+         android:layout_width="wrap_content"
+       	 android:layout_height="wrap_content"
+      	 android:layout_centerVertical="true"
+      	 android:layout_marginLeft="5dp"           	
+   		 android:background="@drawable/group_icon" />
+        	
+         <TextView 
+    		android:id="@+id/mainwin_title_tv"
+    		android:layout_width="wrap_content"
+    		android:layout_height="wrap_content"
+    		android:padding="10dp"
+    		android:layout_centerHorizontal="true"
+    		android:text="  Recent Contactors " 
+    		android:textColor="#FFFFFFFF"
+    		android:textSize="18sp"/>
+         
+          <Button
+        		 android:id="@+id/mainwin_title_btn_pop"
+           		 android:layout_width="wrap_content"
+            	 android:layout_height="wrap_content"
+            	 android:layout_centerVertical="true"
+            	 android:layout_alignParentRight="true"
+            	 android:layout_marginRight="5dp"          	 
+           		 android:background="@drawable/emoji_230" />
+         
+     </RelativeLayout>
+
+     <!-- 底部菜单 -->
+    <RelativeLayout 
+  	    android:id="@+id/mainwin_bottom"
+  	    android:layout_width="fill_parent"
+  		android:layout_height="60dp"
+  		android:layout_alignParentBottom="true"
+    	android:background="@drawable/shape_login_bg" >
+ 
+        <Button
+        		 android:id="@+id/bt_myChildClass_Mw"
+           		 android:layout_width="wrap_content"
+            	 android:layout_height="wrap_content"
+            	 android:layout_centerVertical="true"
+            	 android:layout_marginLeft="40dp"     
+            	 android:text="My Child Class"      	 
+           		 android:textSize="20dp"
+           		 android:background="@drawable/shape_login_div" 
+           		 
+           		 />
+        
+        <Button
+        		 android:id="@+id/bt_mySupperClass_Mw"
+        		 android:layout_toRightOf="@id/bt_myChildClass_Mw"
+        		 android:layout_centerVertical="true"
+           		 android:layout_width="wrap_content"
+            	 android:layout_height="wrap_content"
+            	 android:layout_marginLeft="40dp"
+            	 android:text="My Super Class"
+            	 android:textSize="20dp"
+           		 android:background="@drawable/shape_login_div" 
+           		 />
+        
+    </RelativeLayout>
+    
+    <!-- 中间部分 -->
+	 <RelativeLayout 
+  	    	android:id="@+id/mainwin_body_rl"
+  	    	android:layout_width="fill_parent"
+  			android:layout_height="wrap_content" 
+  			android:layout_below="@id/mainwin_title" 
+  			android:layout_above="@id/mainwin_bottom"  
+    		android:background="#FFC5C5C5" >
+            	        
+	        <Button
+				android:id="@+id/mainwin_body_btn_group"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"			
+				android:layout_marginTop="7dp"
+            	 android:layout_marginLeft="22dp"
+            	 android:background="@drawable/selector_btn_groups"
+			/>
+    				
+            <ListView
+            	 android:id="@+id/lv_recentContactor_Mv"
+            	 android:layout_width="wrap_content"
+            	 android:layout_height="wrap_content"
+            	 android:layout_marginTop="50dp"
+            	 android:background="#FFFFFFFF" />
+    			
+    </RelativeLayout>
+     
+</RelativeLayout>

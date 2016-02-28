@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    android:background="@drawable/shape_login_bg" >
+ 
+     <ImageView
+         android:id="@+id/iv_avatar_Cli"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:contentDescription="@string/app_name"
+            android:padding="8dp"
+            android:src="@drawable/btn_selectcontact_big" />
+     
+     <!-- this is the conatactor's avatar -->   
+ 	
+ 	<TextView
+  		android:id="@+id/tv_userName_Cli"
+  		android:layout_width="wrap_content"
+  		android:layout_height="wrap_content" 
+  		android:layout_marginTop="14dp" 
+  		style="@style/MainWinElvGroupTitleText"  />
+ 	
+ 	<TextView
+ 	    android:id="@+id/tv_role_Cli"
+ 	    android:layout_width="wrap_content" 
+ 	    android:layout_height="wrap_content"
+ 	    android:layout_marginTop="14dp"
+ 	    android:background="#EE0011"
+ 	    style="@style/MainWinElvGroupTitleText"/>
+  	
+</LinearLayout>

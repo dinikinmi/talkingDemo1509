@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" 
+    android:background="#FFFFFFFF">
+   
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="#FF0045F8" >
+
+        <Button 
+            android:id="@+id/group_backbtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="7dp"
+            android:background="@drawable/into_icon"
+            />
+        
+         <TextView 
+    		android:id="@+id/group_title_tv"
+    		android:layout_width="wrap_content"
+    		android:layout_height="wrap_content"
+    		android:padding="10dp"
+    		android:layout_centerHorizontal="true"
+    		android:text="@string/groupwin_title_text" 
+    		android:textColor="#FFFFFFFF"
+    		android:textSize="18sp" />
+         
+    </RelativeLayout>
+  
+     <ListView
+        android:id="@+id/group_lv"
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:divider="@null"
+        android:listSelector="@null"
+        android:transcriptMode="alwaysScroll"
+         >
+    </ListView>
+
+</LinearLayout>

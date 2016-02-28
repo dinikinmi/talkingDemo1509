@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/shape_login_bg" >
+    
+    <TextView 
+        android:id="@+id/questionTitle_ASL"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/shape_login_div"
+        />
+    
+    <TextView 
+        android:id="@+id/questionContent_ASL"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+         android:background="@drawable/shape_login_div"
+        />
+    
+    <RelativeLayout 
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+         >
+        
+    <Button 
+        android:id="@+id/addAnswer_ASL"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:text="Add Answer"        
+        android:background="@drawable/shape_login_div"
+         android:textSize="15dp"
+        android:textColor="#FFFF4500"
+        />
+    
+    <Button 
+        android:id="@+id/forwardQuestion_ASL"
+        android:layout_centerHorizontal="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Forward"
+        android:background="@drawable/shape_login_div"
+         android:textSize="15dp"
+        android:textColor="#FFFF4500"
+ 
+        />
+    
+    
+    
+    <Button 
+        android:id="@+id/collect_ASL"
+        android:layout_alignParentRight="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Add To Favorite"
+        android:background="@drawable/shape_login_div"
+         android:textSize="15dp"
+        android:textColor="#FFFF4500"
+ 
+        />
+    
+    </RelativeLayout>
+    
+    <ListView 
+        android:id="@+id/answerList_ASL"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/shape_login_div"
+        />
+    
+
+</LinearLayout>

@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFFFF">
+  
+    <!-- 顶部标题 -->
+     <RelativeLayout 
+  	    android:id="@+id/mainwin_title"
+  	    android:layout_width="fill_parent"
+  		android:layout_height="wrap_content"
+    	android:background="#FF0045F8" >
+ 
+         <Button
+        		 android:id="@+id/mainwin_title_btn"
+           		 android:layout_width="wrap_content"
+            	 android:layout_height="wrap_content"
+            	 android:layout_centerVertical="true"
+            	 android:layout_marginLeft="5dp"           	 
+           		 android:background="@drawable/group_icon" />
+        	
+         <TextView 
+    		android:id="@+id/mainwin_title_tv"
+    		android:layout_width="wrap_content"
+    		android:layout_height="wrap_content"
+    		android:padding="10dp"
+    		android:layout_centerHorizontal="true"
+    		android:text="@string/mainwin_title_text" 
+    		android:textColor="#FFFFFFFF"
+    		android:textSize="18sp"/>
+         
+          <Button
+        		 android:id="@+id/mainwin_title_btn_pop"
+           		 android:layout_width="wrap_content"
+            	 android:layout_height="wrap_content"
+            	 android:layout_centerVertical="true"
+            	 android:layout_alignParentRight="true"
+            	 android:layout_marginRight="5dp"          	 
+           		 android:background="@drawable/emoji_230" />
+         
+     </RelativeLayout>
+
+     <!-- 底部菜单 -->
+    <RelativeLayout 
+  	    android:id="@+id/mainwin_bottom"
+  	    android:layout_width="fill_parent"
+  		android:layout_height="60dp"
+  		android:layout_alignParentBottom="true"
+    	android:background="#FFFFED6C" >
+ 
+        <Button
+        		 android:id="@+id/mainwin_bottom_btn_msg"
+           		 android:layout_width="wrap_content"
+            	 android:layout_height="wrap_content"
+            	 android:layout_centerVertical="true"
+            	 android:layout_marginLeft="40dp"           	 
+           		 android:background="@drawable/selector_btn_msg" />
+        
+        <Button
+        		 android:id="@+id/mainwin_bottom_btn_man"
+           		 android:layout_width="wrap_content"
+            	 android:layout_height="wrap_content"
+            	 android:layout_centerInParent="true"
+           		 android:background="@drawable/selector_btn_man" />
+        
+    </RelativeLayout>
+    
+    <!-- 中间部分 -->
+	 <RelativeLayout 
+  	    	android:id="@+id/mainwin_body_rl"
+  	    	android:layout_width="fill_parent"
+  			android:layout_height="wrap_content" 
+  			android:layout_below="@id/mainwin_title" 
+  			android:layout_above="@id/mainwin_bottom"  
+    		android:background="#FFC5C5C5" >
+            	        
+	        <Button
+				android:id="@+id/mainwin_body_btn_group"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"			
+				android:layout_marginTop="7dp"
+            	 android:layout_marginLeft="22dp"
+            	 android:background="@drawable/selector_btn_groups"
+			/>
+    				
+            <ExpandableListView
+            	 android:id="@+id/mainwin_body_elv"
+            	 android:layout_width="wrap_content"
+            	 android:layout_height="wrap_content"
+            	 android:layout_marginTop="50dp"
+            	 android:background="#FFFFFFFF" />
+    			
+    </RelativeLayout>
+     
+</RelativeLayout>

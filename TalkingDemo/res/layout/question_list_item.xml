@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" 
+    android:background="@drawable/shape_login_bg">
+ 
+    <LinearLayout
+    android:id="@+id/topLayout_QLI"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal" 
+    android:background="@drawable/shape_login_bg">
+       
+        <TextView
+        android:id="@+id/Tile_QLI"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/shape_login_div"
+        android:textSize="20dp"
+        android:textColor="#FFFF4500"
+        />
+        
+        <TextView 
+            android:id="@+id/Credit_QLI"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"           
+            android:background="@drawable/shape_login_bg"
+            android:textSize="10dp"
+            android:textColor="#FFFF4500"
+            />
+        
+    </LinearLayout>
+
+ 
+       <TextView 
+        android:id="@+id/Abbre_QLI"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:textColor="#FF064500"
+        android:background="@drawable/shape_login_div"
+        />
+        
+    <LinearLayout
+    android:id="@+id/buttomLayout_QLI"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal" >
+                
+         <TextView 
+        android:id="@+id/Label_1_QLI"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        
+         />
+       
+          <TextView 
+        android:id="@+id/Label_2_QLI"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        />
+          
+          
+         <TextView 
+        android:id="@+id/Label_3_QLI"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        />
+                          
+        <TextView 
+        android:id="@+id/Label_4_QLI"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        />
+              
+     </LinearLayout>
+      
+</LinearLayout>

@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/shape_login_bg" >
+    
+    <RelativeLayout
+        android:id="@+id/rl_topLayout_Ud"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" 
+        android:background="@drawable/shape_login_div">
+        <ImageView 
+            android:id="@+id/iv_Avatar_Ud"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:src="@drawable/robot"
+            android:layout_centerHorizontal="true"
+            />
+      
+        <TextView 
+            android:id="@+id/tv_userName_Ud"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@id/iv_Avatar_Ud"
+            android:text=""
+            />
+        
+     
+    </RelativeLayout>
+        <RelativeLayout 
+            android:layout_width="match_parent"     
+            android:layout_height="match_parent"
+            android:background="@drawable/shape_login_div"
+            android:layout_below="@id/rl_topLayout_Ud"
+             >
+         
+            <Button
+            android:id="@+id/bt_showSupperClass_Ud"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/button_login"
+            android:text="Its Supper Class"
+            android:layout_alignParentLeft="true"/>
+            
+            
+             <Button            
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/button_login"
+            android:layout_alignParentRight="true"
+            android:text="Its ChildClasses"
+            android:id="@+id/bt_showChildClass_Ud"
+            />
+            
+            
+            <Button
+            android:id="@+id/bt_Extends_Ud"    
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/button_login"
+            android:layout_centerHorizontal="true"
+            android:text="Extends From It"/>
+            
+            
+            
+       
+         
+        </RelativeLayout> 
+   
+</RelativeLayout>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" 
+    android:orientation="vertical" 
+    android:background="#FFC0C0C0" >
+    
+    <ListView
+        android:id="@+id/popwin_lv"
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:divider="@null"
+        android:listSelector="@null"
+        android:transcriptMode="alwaysScroll" >
+    </ListView>
+   
+    <Button 
+            android:id="@+id/popwin_close"
+            android:layout_width="fill_parent"
+            android:layout_height="25dp"
+            android:background="#FF0505CC"
+            />
+    
+</LinearLayout>

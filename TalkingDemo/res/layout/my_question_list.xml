@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/shape_login_bg" >
+    
+
+    
+        <Button
+            android:id="@+id/back_MQ"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Back"
+            android:background="@drawable/shape_login_div"
+            />
+
+       
+
+        <TextView
+            android:id="@+id/Title_MQ"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="  My Questions  "
+            background="@drawable/shape_login_div"
+            />
+        
+        
+       
+    
+      <ListView
+            android:id="@+id/QuestionList_MQ"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1" 
+            android:background="@drawable/shape_login_div"/>
+  
+       
+   
+</RelativeLayout>

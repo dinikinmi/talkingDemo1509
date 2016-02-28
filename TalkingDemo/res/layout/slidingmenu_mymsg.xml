@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/shape_login_bg"
+    android:orientation="vertical" 
+   
+    >
+        <Button
+            android:id="@+id/Test"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:text="Test"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/shape_login_div"
+        />
+        
+          <Button
+            android:id="@+id/questionInSLM"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:background="@drawable/shape_login_div"
+             android:layout_marginTop="10dp"
+            android:text="Question Plaza"
+        /> 
+        
+          
+          <Button
+            android:id="@+id/MyDetails"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+             android:layout_marginTop="10dp"
+            android:background="@drawable/shape_login_div" 
+             android:text="  Me  "
+          /> 
+                 
+          <Button
+            android:id="@+id/searchUsersInSLM"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+             android:layout_marginTop="10dp"
+            android:background="@drawable/shape_login_div" 
+            android:text="Search Users"
+           /> 
+           
+</LinearLayout>

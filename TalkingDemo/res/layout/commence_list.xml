@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/shape_login_bg" >
+<!--  Top  --> 
+    <RelativeLayout 
+        android:id="@+id/CM_Top_Rl"
+        android:layout_alignParentTop="true"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/shape_login_bg"
+        >
+        <ListView 
+        android:id="@+id/CM_commenceLv_Lv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        />
+    </RelativeLayout>
+    
+    
+    <!-- Bottom -->
+    <RelativeLayout 
+        android:id="@+id/CM_Bottom_Rl"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="#00000000"
+        >
+    <Button
+        android:id="@+id/CM_addCommence_Bt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Post A New Commence"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        android:textSize="25dp"
+        android:background="@drawable/shape_login_div"
+                />    
+     </RelativeLayout>
+    
+    
+ </RelativeLayout>

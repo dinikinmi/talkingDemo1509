@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/shape_login_bg" >
+ 
+    <LinearLayout
+    android:id="@+id/topLayout_MQLI"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    android:background="@drawable/shape_login_bg" >
+       
+        <TextView
+        android:id="@+id/Tile_MQLI"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/shape_login_div"
+        />
+        
+        <TextView 
+            android:id="@+id/Credit_MQLI"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" 
+            android:background="@drawable/shape_login_div"          
+            />
+        
+    </LinearLayout>
+
+ 
+       <TextView 
+        android:id="@+id/Abbre_MQLI"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#87CEEB"
+        />
+    
+    
+    
+    
+    <LinearLayout
+    android:id="@+id/buttomLayout_MQLI"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal" >
+                
+         <TextView 
+        android:id="@+id/Label_1_MQLI"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        />
+       
+          <TextView 
+        android:id="@+id/Label_2_MQLI"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        />
+          
+          
+         <TextView 
+        android:id="@+id/Label_3_MQLI"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        />
+                          
+        <TextView 
+        android:id="@+id/Label_4_MQLI"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        />
+              
+     </LinearLayout>
+      
+</LinearLayout>

@@ -1,0 +1,86 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/shape_login_bg">
+    
+    <RelativeLayout 
+  	    android:id="@+id/reg_div"
+  	    android:layout_width="fill_parent"
+  		android:layout_height="wrap_content"
+  		android:padding="15dip"        
+    	android:layout_margin="15dip" 
+    	android:background="@drawable/shape_login_div" >
+    	
+        <!-- 账号-->
+    	<TextView 
+    		android:id="@+id/tv_Title_Reg"
+    		android:layout_width="wrap_content"
+    		android:layout_height="wrap_content"
+    		android:layout_alignParentTop="true"
+    		android:layout_marginTop="5dp"
+    		android:text="NickName Here"
+    		 style="@style/normalText"/>
+    	<EditText 
+    		android:id="@+id/et_userName_Reg"
+    		android:layout_width="fill_parent"
+    		android:layout_height="wrap_content"
+    		android:hint="@string/login_username_hint"
+    		android:layout_below="@id/tv_Title_Reg"
+    		android:singleLine="true"
+    		android:inputType="text"/>
+    	
+    	<!-- 密码  -->
+      	<TextView 
+      		android:id="@+id/tv_password_Reg"
+      		android:layout_width="wrap_content"
+      		android:layout_height="wrap_content"
+      		android:layout_below="@id/et_userName_Reg"
+      		android:layout_marginTop="3dp"
+      		android:text="@string/login_label_password" 
+      		style="@style/normalText" />    	
+     	 <EditText 
+      		android:id="@+id/et_password_1_Reg"
+      		android:layout_width="fill_parent"
+      		android:layout_height="wrap_content"
+      		android:layout_below="@id/tv_password_Reg"
+      		android:singleLine="true"
+      		android:inputType="textPassword" />
+    	
+     	   <EditText 
+      		android:id="@+id/et_password_2_Reg"
+      		android:layout_width="fill_parent"
+      		android:layout_height="wrap_content"
+      		android:layout_below="@id/et_password_1_Reg"
+      		android:singleLine="true"
+      		android:inputType="textPassword" />
+    </RelativeLayout>	
+
+    <Button 
+      	android:id="@+id/bt_submit_Reg"
+      	android:layout_width="fill_parent"
+      	android:layout_height="wrap_content"
+      	android:layout_below="@id/reg_div"
+      	android:padding="15dip"        
+    	android:layout_margin="15dip" 
+    	android:layout_marginTop="5dp"
+    	android:text="Submit"
+      	android:textColor="#FFFFFFFF" 
+      	android:background="@drawable/button_login" />
+    
+    
+    
+    <Button 
+      	android:id="@+id/bt_goLogin_Reg"
+      	android:layout_width="fill_parent"
+      	android:layout_height="wrap_content"
+      	android:layout_below="@id/bt_submit_Reg"
+      	android:padding="15dip"        
+    	android:layout_margin="15dip" 
+    	android:layout_marginTop="5dp"
+    	android:text="Already has an Account,Login Here"
+      	android:textColor="#FFFFFFFF" 
+      	android:background="@drawable/button_login" />
+    
+
+</RelativeLayout>

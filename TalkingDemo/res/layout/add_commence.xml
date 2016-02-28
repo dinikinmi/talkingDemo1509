@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFFFF">
+  
+    <!-- 顶部标题 -->
+     <RelativeLayout 
+  	    android:id="@+id/AC_Title_Rl"
+  	    android:layout_width="fill_parent"
+  		android:layout_height="wrap_content"
+    	android:background="#FF0045F8" >
+ 
+         <Button
+        		 android:id="@+id/AC_Back_Bt"
+           		 android:layout_width="wrap_content"
+            	 android:layout_height="wrap_content"
+            	 android:layout_centerVertical="true"
+            	 android:layout_marginLeft="5dp"   
+            	 android:text="Back"        	 
+           		  />
+        	
+         <TextView 
+    		android:id="@+id/AC_Top_Tv"
+    		android:layout_width="wrap_content"
+    		android:layout_height="wrap_content"
+    		android:padding="10dp"
+    		android:layout_centerHorizontal="true"
+    		android:text="Post New Commence Here" 
+    		android:textColor="#FFFFFFFF"
+    		android:textSize="18sp"/>
+                  
+         <TextView 
+             android:id="@+id/AC_questionTitle_Tv"
+             android:layout_below="@id/AC_Top_Tv"
+             android:layout_height="wrap_content"
+             android:layout_width="wrap_content"
+             />
+         
+         <TextView 
+             android:id="@+id/AC_questionContent_Tv"
+             android:layout_below="@id/AC_questionTitle_Tv"
+             android:layout_height="wrap_content"
+             android:layout_width="wrap_content"
+             />
+         
+         
+           </RelativeLayout>
+           
+       <!-- 中间部分 -->
+	 <RelativeLayout 
+  	    	android:id="@+id/AC_Body_Rl"
+  	    	android:layout_width="fill_parent"
+  	    	android:layout_height="fill_parent" 
+  			android:layout_below="@id/AA_Title_Rl" 
+  			android:layout_above="@id/AA_Bottom_Rl"  
+    		android:background="#FFC5C5C5" >
+    					
+               <EditText
+            	 android:id="@+id/AC_commenceField_ED"
+            	 android:layout_width="match_parent"
+            	 android:layout_height="match_parent"
+            	 android:layout_marginTop="10dp"
+            	 android:background="#FFC3C5C9"
+            	 android:gravity="top" />
+               
+    </RelativeLayout>
+     
+     
+     
+
+     <!-- 底部菜单 -->
+    <RelativeLayout 
+  	    android:id="@+id/AC_Bottom_Rl"
+  	    android:layout_width="fill_parent"
+  		android:layout_height="60dp"
+  		android:layout_alignParentBottom="true"
+    	android:background="#FFFFED6C" >
+ 
+        <Button
+        		 android:id="@+id/AC_Submit_Bt"
+           		 android:layout_width="wrap_content"
+            	 android:layout_height="wrap_content"
+            	 android:layout_centerHorizontal="true"
+            	 android:layout_marginLeft="40dp"  
+            	 android:text=" Submit Commence "      	 
+           		 />
+       
+    </RelativeLayout>
+    
+  
+     
+</RelativeLayout>
